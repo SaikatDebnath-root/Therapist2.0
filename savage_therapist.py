@@ -3,6 +3,7 @@ import sys
 import itertools
 import threading
 
+#Meetings xD
 print("Hii, What's your name ?")
 name = input("=> ")
 print("Hey", name+", What's the problem you are facing ?")
@@ -17,6 +18,7 @@ def animate():
         sys.stdout.write('\rAnalysing Problem   ' + c)
         sys.stdout.flush()
         time.sleep(0.1)
+        #Get ready to be amazed !
     sys.stdout.write('\n\n\rCure found!                 ')
     print("\nCopy the link and Paste in a browser --> https://bit.ly/35AjlDS")
 
